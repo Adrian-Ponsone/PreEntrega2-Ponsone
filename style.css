@@ -12,8 +12,6 @@ body{
     margin-bottom: 20px;
 }
 
-/*Aplicado al Index*/
-
 .verticalAlign{
     display: flex;
     justify-content: center;
@@ -28,5 +26,17 @@ body{
     font-size: 20px;
     color: white;
     
+}
+
+.imgBox{
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+
+
+.translate:hover {
+    transform: translateY(-20px);
+    transition: all 0.5s;               
 }
 
